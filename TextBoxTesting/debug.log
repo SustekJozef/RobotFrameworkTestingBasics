@@ -1,0 +1,4 @@
+[1020/181305.024:ERROR:process_info.cc(359)] UncheckedAllocate
+[1020/181305.098:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Jozef\AppData\Local\Temp\scoped_dir7772_374048913\Crashpad\attachments\ffc0c955-b288-4a3d-ac2e-dc13a1fc4fb2: The system cannot find the path specified. (0x3)
+[1020/181327.341:ERROR:process_info.cc(359)] UncheckedAllocate
+[1020/181518.189:ERROR:process_info.cc(359)] UncheckedAllocate
