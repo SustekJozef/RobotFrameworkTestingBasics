@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.5 on win32)" generated="20201021 12:13:53.320" rpa="false">
+<suite id="s1" name="DrobBox" source="C:\Users\Jozef\Dropbox\Robot framework nový záčiatok 20.10.2020\Robot Framework github\RobotFrameworkTestingBasics\DropdownTesting\DrobBox.robot">
+<test id="s1-t1" name="TC1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>file:///C:/Users/Jozef/Dropbox/Robot%20framework%20nov%C3%BD%20z%C3%A1%C4%8Diatok%2020.10.2020/Robot%20Framework%20github/RobotFrameworkTestingBasics/Simple%20webpages%20for%20testing/Dropdown.htm</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20201021 12:13:53.698" level="INFO">Opening browser 'chrome' to base url 'file:///C:/Users/Jozef/Dropbox/Robot%20framework%20nov%C3%BD%20z%C3%A1%C4%8Diatok%2020.10.2020/Robot%20Framework%20github/RobotFrameworkTestingBasics/Simple%20webpages%20for%20testing/Dropdown.htm'.</msg>
+<status status="PASS" starttime="20201021 12:13:53.698" endtime="20201021 12:13:59.109"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>carbrand</arg>
+<arg>audi</arg>
+</arguments>
+<msg timestamp="20201021 12:13:59.113" level="INFO">Selecting options from selection list 'carbrand' by value audi.</msg>
+<status status="PASS" starttime="20201021 12:13:59.112" endtime="20201021 12:13:59.361"></status>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<arguments>
+<arg>months</arg>
+<arg>4</arg>
+</arguments>
+<msg timestamp="20201021 12:13:59.363" level="INFO">Selecting options from selection list 'months' by index 4.</msg>
+<status status="PASS" starttime="20201021 12:13:59.362" endtime="20201021 12:13:59.545"></status>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>days</arg>
+<arg>09</arg>
+</arguments>
+<msg timestamp="20201021 12:13:59.546" level="INFO">Selecting options from selection list 'days' by label 09.</msg>
+<status status="PASS" starttime="20201021 12:13:59.546" endtime="20201021 12:13:59.713"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>year</arg>
+<arg>14</arg>
+</arguments>
+<msg timestamp="20201021 12:13:59.715" level="INFO">Selecting options from selection list 'year' by value 14.</msg>
+<status status="PASS" starttime="20201021 12:13:59.714" endtime="20201021 12:13:59.858"></status>
+</kw>
+<status status="PASS" starttime="20201021 12:13:53.694" endtime="20201021 12:13:59.859" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20201021 12:13:53.326" endtime="20201021 12:13:59.867"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="DrobBox">DrobBox</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
